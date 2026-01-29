@@ -1,0 +1,4 @@
+environs==9.5.0
+pandas==2.1.0
+requests==2.31.0
+numpy==2.1.1
