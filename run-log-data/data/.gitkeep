@@ -1,0 +1,3 @@
+# This file keeps the data/ directory tracked in git.
+# CSV activity data files are excluded via .gitignore (personal training data).
+# Run sync.sh from run-log-data/ to populate this folder with your own data.

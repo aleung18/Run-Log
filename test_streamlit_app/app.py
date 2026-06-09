@@ -16,7 +16,7 @@ st.write("Data collected from Strava, hoping to use stats to improve running/pot
     
 st.subheader(f"Strava Data as of {today}")
     
-df = pd.read_csv("../run-log-data/data/my_activity_data=20260127202937.csv")
+df = pd.read_csv("../run-log-data/data/latest.csv")
 st.write(df.head())
 
 # messing around with/learning some of streamlits graphs

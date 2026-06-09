@@ -30,6 +30,8 @@ def main():
     Path("data").mkdir(exist_ok=True)
     df = pd.concat(dfs_to_concat, ignore_index=True)
     df.to_csv(Path('data', f'my_activity_data={timestamp}.csv'), index=False)
+    df.to_csv(Path('data', 'latest.csv'), index=False)
+    print(f"✅ Data saved: {len(df)} activities written to latest.csv")
 
 # import requests
 # access_token = "360b9d40d6e141fe33fb4911555244bf497d9d1c"
